@@ -3,6 +3,9 @@ Using R to perform multiple linear regression analysis to identify which variabl
 
 ## Linear Regression to Predict MPG
     Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+    Of the 5 variables considered, Vehicle Clearance and Vehicle Length have a significant impact on mpg, while Vehicle
+    Weight may only have a slight impact on fuel economy.
+    ![](/Resources/Images/mpg_summary.png)
 
     Is the slope of the linear model considered to be zero? Why or why not?
 
