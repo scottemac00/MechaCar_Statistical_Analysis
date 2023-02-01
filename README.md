@@ -37,7 +37,7 @@ economy (miles per gallon, mpg) of, and quality of suspension coils produced, in
 ![](/Resources/Images/t_test_lot2.png)    ![](/Resources/Images/t_test_lot3.png)    
     
 ## Study Design: MechaCar vs Competition
-    This statistical study quantifies how MechaCar performs against the competition. , and seeks to answer the 
+    This statistical study quantifies how MechaCar performs against the competition, and seeks to answer the 
     following questions:
     
     What metric or metrics are you going to test?
