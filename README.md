@@ -3,13 +3,15 @@ Using R to perform multiple linear regression analysis to identify which variabl
 
 ## Linear Regression to Predict MPG
     Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-    Of the 5 variables considered, Vehicle Clearance and Vehicle Length have a significant impact on mpg, while Vehicle
+    Of the 5 variables considered, Ground Clearance and Vehicle Length have a significant impact on mpg, while Vehicle
     Weight may only have a slight impact on fuel economy.
-    ![](/Resources/Images/mpg_summary.png)
+![](/Resources/Images/mpg_summary.png)
 
     Is the slope of the linear model considered to be zero? Why or why not?
+    Because there are two of the dependent variables with strong correlations (significant impacts), the slope of the           linear model is not zero.
 
     Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+    This linear model is effective in predicting fuel economy of MechaCar prototypes because of the significant correlation     between two of the 5 variables, and because of the strong correlation of one of the variables.
     
 ## Summary Statistics on Suspension Coils
     The design specifications for the MechaCar suspension coils dictate that the variance of the suspension 
