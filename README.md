@@ -16,4 +16,28 @@ Using R to perform multiple linear regression analysis to identify which variabl
 ## T-Tests on Suspension Coils
     Briefly summarize interpretation and findings for the results.
     
+## Study Design: MechaCar vs Competition
+    This statistical study quantifies how MechaCar performs against the competition. , and seeks to answer the following questions:
+    
+    What metric or metrics are you going to test?
+        The study considers cost, fuel efficiency, horsepower, maintenance, and safety ratings.
+        
+    What is the null hypothesis or alternative hypothesis?
+        Null Hypothesis: MechaCar fuel efficiency is NOT better than the competition
+        Alternate Hpyothese: MechaCar fuel efficiency on the highway is, on average, 5% better than the competition
+        
+        Similar null hypotheses might be tested for each metric, where we assume MechaCar is either better than the 
+        competition by a factor of _n_ or is NOT better than the competition.
+
+    What statistical test would you use to test the hypothesis? And why?
+        Linear modeling would best determine if a correlation exists between cost and maintenance, or fuel efficiency and
+        horsepower. 
+        T-testing might be used to compare MechaCar statistics with competition statistics in similar populations.                 Comparing safety ratings of models with similar traits might give engineers and managers information to refine
+        designs, or improve cost efficiencies.
+
+    What data is needed to run the statistical test?
+        Data would need to specify model, year, engine horsepower, cost (manufacturer's suggested retail price), safety             rating (by the same governing organization), to ensure similar populations. Comparing disimilar data will not
+        positively contribute to company objectives.
+
+    
 
