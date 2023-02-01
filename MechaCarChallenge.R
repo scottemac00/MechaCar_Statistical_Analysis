@@ -25,3 +25,18 @@ lot_summary <- coil %>% group_by(Manufacturing_Lot) %>%
               Variance=var(PSI),
               SD=sd(PSI),
               .groups='keep')
+
+# Part 3
+# perform t-tests to determine if all manufacturing lots and each lot 
+# individually are statistically different from the population mean of 
+# 1,500 pounds per square inch.
+t.test((coil$PSI), mu=1500) # fail to reject null hypothesis (true mean is 1500 psi)
+# Use t.test() and subset() to determine statistical
+# difference of PSI per lot based on 1500 PSI mean
+lot1<-coil %>% filter(Manufacturing_Lot == 'Lot1')
+lot2<-coil %>% filter(Manufacturing_Lot == 'Lot2')
+lot3<-coil %>% filter(Manufacturing_Lot == 'Lot3')
+# t.test each subset (lot1-3)
+t.test(lot1$PSI,mu=1500) # fail to reject null hypothesis (true mean is 1500psi)
+t.test(lot2$PSI, mu=1500) # fail to reject null hypothesis (true mean is 1500psi)
+t.test(lot3$PSI, mu=1500) # reject null hypothesis (true mean is NOT 1500psi)
