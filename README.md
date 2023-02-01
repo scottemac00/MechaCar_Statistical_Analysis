@@ -1,17 +1,20 @@
 # MechaCar_Statistical_Analysis
-Using R to perform multiple linear regression analysis to identify which variables in a dataset predict the mpg of MechaCar prototypes.
+Using R to perform multiple linear regression analysis to identify which variables in a dataset predict the mpg 
+of MechaCar prototypes.
 
 ## Linear Regression to Predict MPG
     Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-    Of the 5 variables considered, Ground Clearance and Vehicle Length have a significant impact on mpg, while Vehicle
-    Weight may only have a slight impact on fuel economy.
+    Of the 5 variables considered, Ground Clearance and Vehicle Length have a significant impact on mpg, 
+    while Vehicle Weight may only have a slight impact on fuel economy.
 ![](/Resources/Images/mpg_summary.png)
 
     Is the slope of the linear model considered to be zero? Why or why not?
-    Because there are two of the dependent variables with strong correlations (significant impacts), the slope of the           linear model is not zero.
+    Because there are two of the dependent variables with strong correlations (significant impacts), the 
+    slope of the linear model is not zero.
 
     Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-    This linear model is effective in predicting fuel economy of MechaCar prototypes because of the significant correlation     between two of the 5 variables, and because of the strong correlation of one of the variables.
+    This linear model is effective in predicting fuel economy of MechaCar prototypes because of the significant 
+    correlation between two of the 5 variables, and because of the strong correlation of one of the variables.
     
 ## Summary Statistics on Suspension Coils
     The design specifications for the MechaCar suspension coils dictate that the variance of the suspension 
@@ -22,7 +25,8 @@ Using R to perform multiple linear regression analysis to identify which variabl
     Briefly summarize interpretation and findings for the results.
     
 ## Study Design: MechaCar vs Competition
-    This statistical study quantifies how MechaCar performs against the competition. , and seeks to answer the following questions:
+    This statistical study quantifies how MechaCar performs against the competition. , and seeks to answer the 
+    following questions:
     
     What metric or metrics are you going to test?
         The study considers cost, fuel efficiency, horsepower, maintenance, and safety ratings.
