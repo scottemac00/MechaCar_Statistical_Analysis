@@ -13,5 +13,15 @@ summary(lm(mpg ~ vehicle_length+vehicle_weight+spoiler_angle+ground_clearance+AW
 # suspension coil PSI continuous variable across all lots
 # PSI mean, median, variance, and std dev
 # Import and read the csv into a dataframe
-coil <- read.csv('Suspension_Coil.csv', stringsAsFactors = F)
+coil <- read.csv('Suspension_Coil.csv')
+head(coil)
 # Create summary dataframe
+total_summary <- coil %>% summarize(Mean=mean(PSI), Median=median(PSI),
+                                    Variance=var(PSI), SD=sd(PSI), .groups='keep')
+# Create a lot_summary dataframe using group_by and summarize()
+lot_summary <- coil %>% group_by(Manufacturing_Lot) %>% 
+  summarize(Mean=mean(PSI),
+              Median=median(PSI),
+              Variance=var(PSI),
+              SD=sd(PSI),
+              .groups='keep')
